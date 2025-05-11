@@ -11,6 +11,11 @@ const routes = [
    path: '/lifecycle',
   name: 'LifeCycle',
   component: () => import('@/views/lifecycle.vue') // 使用小写文件名
+  },
+  {
+    path:'/StateManagement',
+    name:'StateManagement',
+    component:()=>import('@/views/StateManagement.vue')
   }
 ]
 

@@ -19,4 +19,5 @@ export const useCounterStore = defineStore('counter',{
             return state.count * 2;
         },
     },
-})
+    persist:true,//持久化
+});
